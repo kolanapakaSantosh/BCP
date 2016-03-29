@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBG7K-L75foLoXY5zpI1EVOQekvrSgP0WU</string>
+</resources>

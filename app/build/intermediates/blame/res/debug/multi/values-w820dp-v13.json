@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/usr/local/google/home/skolanapaka/Downloads/BCP_MAPS-master/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/usr/local/google/home/skolanapaka/Downloads/BCP_MAPS-master/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 137,
+                    "endOffset": 246
+                },
+                "from": {
+                    "file": "/usr/local/google/home/skolanapaka/Downloads/BCP_MAPS-master/app/src/main/res/values-w820dp/google_maps_api.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 775,
+                        "endColumn": 137,
+                        "endOffset": 908
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/usr/local/google/home/skolanapaka/Downloads/BCP_MAPS-master/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/fence.jpg",
+        "source": "/usr/local/google/home/skolanapaka/Downloads/BCP_MAPS-master/app/src/main/res/mipmap-hdpi/fence.jpg"
+    },
+    {
+        "merged": "/usr/local/google/home/skolanapaka/Downloads/BCP_MAPS-master/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/usr/local/google/home/skolanapaka/Downloads/BCP_MAPS-master/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
