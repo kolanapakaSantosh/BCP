@@ -293,6 +293,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         if (resp == ConnectionResult.SUCCESS) {
             locationClient = new LocationClient(this, this, this);
             locationClient.connect();
+
         }
     }
 

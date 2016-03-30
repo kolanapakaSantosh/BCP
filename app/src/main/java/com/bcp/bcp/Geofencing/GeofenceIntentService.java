@@ -14,6 +14,7 @@ import com.bcp.bcp.R;
 import com.google.android.gms.location.Geofence;
 import com.google.android.gms.location.LocationClient;
 
+import android.location.Location;
 import android.support.v4.app.NotificationCompat;
 
 /**
@@ -34,7 +35,9 @@ public class GeofenceIntentService extends IntentService {
             int transitionType = LocationClient.getGeofenceTransition(intent);
             if (transitionType == Geofence.GEOFENCE_TRANSITION_ENTER) {
                 List<Geofence> triggerList = LocationClient.getTriggeringGeofences(intent);
-
+                Location location = intent.getParcelableExtra(LocationClient.KEY_LOCATION_CHANGED);
+                location.getLatitude();
+                location.getLongitude();
                 for (Geofence geofence : triggerList) {
                     generateNotification(geofence.getRequestId(), "You are entered into building " + transitionType);
                 }
